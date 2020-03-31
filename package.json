@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serzh108/npm.git"
+  },
+  "keywords": [],
+  "author": "Serzh108 <serzh108@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serzh108/npm/issues"
+  },
+  "homepage": "https://github.com/Serzh108/npm#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
